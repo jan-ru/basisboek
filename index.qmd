@@ -1,0 +1,22 @@
+---
+title: "basisboek"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+I wil incorporate html
+
+
+I will incorporate js
+
+### Lineaire verbanden
+
+som 1
+som 2
+
+### Non lineare verbanden
+
+som 3
+som 4
