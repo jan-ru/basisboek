@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "basisboek",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nI wil incorporate html\nI will incorporate js\n\nLineaire verbanden\nsom 1 som 2\n\n\nNon lineare verbanden\nsom 3 som 4"
+  }
+]
