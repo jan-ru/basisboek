@@ -2,12 +2,12 @@
 title: "About"
 ---
 
-Deze site bevat geselecteerde opgaven voor het vak Kwantitatieve Financiële Methoden. De opgave zijn overgenomen uit het boek 
+Deze site bevat geselecteerde opgaven voor het vak Kwantitatieve Financiële Methoden. De opgave zijn overgenomen uit het onderstaande boek. 
 
 ---
 citation:
     type: book
     title: Basisboek wiskunde en financiële rekenkunde
     author: Donald van As, Jaap Klouwen
-    issn: 
+    isbn: 978 90 469 0831 0
 ---

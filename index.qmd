@@ -16,7 +16,7 @@ I wil incorporate html
 
 I will incorporate js
 
-```OJS
+```{ojs}
 import { square } from "./square.js"
 square(5)
 ```
