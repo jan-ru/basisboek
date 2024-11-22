@@ -18,6 +18,13 @@ I will incorporate js
 
 ```{ojs}
 import { square } from "./square.js"
+
+viewof islands = Inputs.checkbox(
+  ["5", "6", "7"], 
+  { value: [5, 6], 
+    label: "Grondgetal:"
+  }
+)
 square(5)
 ```
 
