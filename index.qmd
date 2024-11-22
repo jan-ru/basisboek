@@ -6,14 +6,21 @@ This is a Quarto website.
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
+### Lineaire verbanden
+
+som 1
+
+
 I wil incorporate html
 
 
 I will incorporate js
 
-### Lineaire verbanden
+```OJS
+import { square } from "./square.js"
+square(5)
+```
 
-som 1
 
 ### Non lineare verbanden
 
