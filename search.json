@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "basisboek",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\nI wil incorporate html\nI will incorporate js\n\nLineaire verbanden\nsom 1\n\n\nNon lineare verbanden\nsom 3\n\n\nFinanciële rekenkunde\nsom 4\n\n\nRentabiliteitswaarde"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nLineaire verbanden\nsom 1\nI wil incorporate html\nI will incorporate js\nimport { square } from \"./square.js\"\nsquare(5)\n\n\nNon lineare verbanden\nsom 3\n\n\nFinanciële rekenkunde\nsom 4\n\n\nRentabiliteitswaarde"
   }
 ]
