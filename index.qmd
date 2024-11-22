@@ -17,16 +17,19 @@ I wil incorporate html
 I will incorporate js
 
 ```{ojs}
-import { square } from "./square.js"
+import { square } from "./square.js"  # <1>
 
 viewof islands = Inputs.checkbox(
-  ["5", "6", "7"], 
-  { value: [5, 6], 
+  [..."567"], 
+  { value: [5, 6, 7], 
     label: "Grondgetal:"
   }
 )
-square(5)
+
+
+square(Array[0])
 ```
+1. import of the square function from the square.js file
 
 
 ### Non lineare verbanden
