@@ -4,13 +4,13 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Deze site bevat geselecteerde opgaven voor het vak Kwantitatieve Financiële Methoden. De opgave zijn overgenomen uit het boek\n\n\n\nCitationBibTeX citation:@book{van_as,_jaap_klouwen,\n  author = {van As, Jaap Klouwen, Donald},\n  title = {Basisboek Wiskunde En Financiële Rekenkunde},\n  url = {https://jan-ru.github.io/basisboek/about.html},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAs, Jaap Klouwen, Donald van. n.d. Basisboek Wiskunde En Financiële\nRekenkunde. https://jan-ru.github.io/basisboek/about.html."
+    "text": "Deze site bevat geselecteerde opgaven voor het vak Kwantitatieve Financiële Methoden. De opgave zijn overgenomen uit het onderstaande boek.\n\n\n\nCitationBibTeX citation:@book{van_as,_jaap_klouwen,\n  author = {van As, Jaap Klouwen, Donald},\n  title = {Basisboek Wiskunde En Financiële Rekenkunde},\n  url = {https://jan-ru.github.io/basisboek/about.html},\n  isbn = {978 90 469 0831 0},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAs, Jaap Klouwen, Donald van. n.d. Basisboek Wiskunde En Financiële\nRekenkunde. https://jan-ru.github.io/basisboek/about.html."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "basisboek",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nLineaire verbanden\nsom 1\nI wil incorporate html\nI will incorporate js\nimport { square } from \"./square.js\"\nsquare(5)\n\n\nNon lineare verbanden\nsom 3\n\n\nFinanciële rekenkunde\nsom 4\n\n\nRentabiliteitswaarde"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nLineaire verbanden\nsom 1\nI wil incorporate html\nI will incorporate js\n\nimport { square } from \"./square.js\"\nsquare(5)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNon lineare verbanden\nsom 3\n\n\nFinanciële rekenkunde\nsom 4\n\n\nRentabiliteitswaarde"
   }
 ]
