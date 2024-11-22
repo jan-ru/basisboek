@@ -14,9 +14,13 @@ I will incorporate js
 ### Lineaire verbanden
 
 som 1
-som 2
 
 ### Non lineare verbanden
 
 som 3
+
+### Financiële rekenkunde
+
 som 4
+
+### Rentabiliteitswaarde
