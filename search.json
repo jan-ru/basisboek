@@ -11,6 +11,6 @@
     "href": "index.html",
     "title": "basisboek",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nLineaire verbanden\nsom 1\nI wil incorporate html\nI will incorporate js\n\nimport { square } from \"./square.js\"\n\nviewof islands = Inputs.checkbox(\n  [...\"567\"], \n  { value: [5, 6, 7], \n    label: \"Grondgetal:\"\n  }\n)\n\n\nsquare(Array[0])\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNon lineare verbanden\nsom 3\n\n\nFinanciële rekenkunde\nsom 4\n\n\nRentabiliteitswaarde"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nLineaire verbanden\nimport sympy sympy.sqrt(3)\nI wil incorporate html\nI will incorporate js\n\nimport { square } from \"./square.js\"\n\nviewof islands = Inputs.radio(\n  [...\"567\"], \n  { value: [5, 6, 7], \n    label: \"Grondgetal:\"\n  }\n)\n\nsquare(islands)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNon lineare verbanden\n\\[\nE = mc^2\n\\]\n\n\nFinanciële rekenkunde\n[ E = mc^2 ]\n\n\nRentabiliteitswaarde\n\\(e=mc^2\\)\n\n\nPoging 4\n\\begin\n2^0.5\n\\end"
   }
 ]
