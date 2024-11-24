@@ -1,0 +1,97 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"basisboek\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "This is a Quarto website.\n",
+        "\n",
+        "To learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n",
+        "\n",
+        "### Lineaire verbanden\n"
+      ],
+      "id": "1b2f5f49"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import sympy\n",
+        "sympy.sqrt(3)"
+      ],
+      "id": "8c01fe06",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "I wil incorporate html\n",
+        "\n",
+        "\n",
+        "I will incorporate js\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{ojs}\n",
+        "//| echo: false\n",
+        "\n",
+        "import { square } from \"./square.js\"\n",
+        "\n",
+        "viewof islands = Inputs.radio(\n",
+        "  [...\"567\"], \n",
+        "  { value: [5, 6, 7], \n",
+        "    label: \"Grondgetal:\"\n",
+        "  }\n",
+        ")\n",
+        "\n",
+        "square(islands)\n",
+        "```\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "### Non lineare verbanden\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{ojs}\n",
+        "\n",
+        "<script src=\"https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js\"></script>\n",
+        "<p>Here is an equation: $$E = mc^2$$</p>\n",
+        "\n",
+        "```\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "### Financiële rekenkunde\n",
+        "\n",
+        "som 4\n",
+        "\n",
+        "### Rentabiliteitswaarde"
+      ],
+      "id": "f4945d58"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/usr/local/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
