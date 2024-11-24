@@ -1,5 +1,11 @@
 ---
 title: "basisboek"
+math:
+  engine: mathjax
+  options:
+    tex:
+      inlineMath: [["$", "$"], ["\\(", "\\)"]]
+      displayMath: [["$$", "$$"], ["\\[", "\\]"]]
 ---
 
 This is a Quarto website.
@@ -8,10 +14,9 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ### Lineaire verbanden
 
-```{python}
 import sympy
 sympy.sqrt(3)
-```
+
 
 
 I wil incorporate html
@@ -36,15 +41,26 @@ square(islands)
 
 
 ### Non lineare verbanden
-```{ojs}
 
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<p>Here is an equation: $$E = mc^2$$</p>
-
-```
+$$
+E = mc^2
+$$
 
 ### Financiële rekenkunde
 
-som 4
+\[
+E = mc^2
+\]
+
 
 ### Rentabiliteitswaarde
+
+$e=mc^2$
+
+### Poging 4
+
+\begin
+
+2^0.5
+
+\end
