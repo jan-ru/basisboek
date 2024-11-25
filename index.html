@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -100,8 +66,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -143,15 +107,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#lineaire-verbanden" id="toc-lineaire-verbanden" class="nav-link active" data-scroll-target="#lineaire-verbanden">Lineaire verbanden</a></li>
-  <li><a href="#non-lineare-verbanden" id="toc-non-lineare-verbanden" class="nav-link" data-scroll-target="#non-lineare-verbanden">Non lineare verbanden</a></li>
-  <li><a href="#financiële-rekenkunde" id="toc-financiële-rekenkunde" class="nav-link" data-scroll-target="#financiële-rekenkunde">Financiële rekenkunde</a></li>
-  </ul>
-</nav>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
@@ -179,87 +135,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
-<section id="lineaire-verbanden" class="level3">
-<h3 class="anchored" data-anchor-id="lineaire-verbanden">Lineaire verbanden</h3>
-<p>import sympy sympy.sqrt(3)</p>
-<p>I will incorporate js</p>
-<div class="cell">
-<div class="sourceCode cell-code hidden" id="cb1" data-startfrom="21" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 20;"><span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { square } <span class="im">from</span> <span class="st">"./square.js"</span><span class="op">;</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>viewof islands <span class="op">=</span> Inputs<span class="op">.</span><span class="fu">radio</span>(</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>  [<span class="op">...</span><span class="st">"567"</span>]<span class="op">,</span> </span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>  { <span class="dt">value</span><span class="op">:</span> [<span class="dv">5</span><span class="op">,</span> <span class="dv">6</span><span class="op">,</span> <span class="dv">7</span>]<span class="op">,</span> </span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    <span class="dt">label</span><span class="op">:</span> <span class="st">"Grondgetal:"</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">square</span>(islands)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-1" data-nodetype="declaration">
+<script src="https://cdn.jsdelivr.net/npm/chevrotain@6/lib/chevrotain.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tiny-emitter@2/dist/tinyemitter.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hyperformula/dist/hyperformula.min.js"></script>
+<script>
+  console.log(`HyperFormula version: ${HyperFormula.version}`);
+</script>
+<script>
 
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-2" data-nodetype="declaration">
+const options = {
+    licenseKey: 'gpl-v3'
+};
 
-</div>
-</div>
-</div>
-<div class="cell-output cell-output-display">
-<div>
-<div id="ojs-cell-1-3" data-nodetype="expression">
+// define the data
+const data = [['10', '20', '3.2', '=SUM(A1:C1)']];
 
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="non-lineare-verbanden" class="level3">
-<h3 class="anchored" data-anchor-id="non-lineare-verbanden">Non lineare verbanden</h3>
-<script type="module">
-import './styles.css'
-import HyperFormula from 'hyperformula';
-const hfInstance = HyperFormula.buildEmpty();
-hfInstance.addSheet("Sheet1");
+// build an instance with defined options and data 
+const hfInstance = HyperFormula.buildFromArray(data, options);
 
-hfInstance.setCellContents(
-  { sheet: hfInstance.getSheetId("Sheet1"), row: 0, col: 0 },
-  [
-    ["Greg Black", 4.66, "=B1*1.3", "=AVERAGE(B1:C1)", "=SUM(B1:C1)"],
-    ["Anne Carpenter", 5.25, "=$B$2*30%", "=AVERAGE(B2:C2)", "=SUM(B2:C2)"],
-    ["Natalie Dem", 3.59, "=B3*2.7+2+1", "=AVERAGE(B3:C3)", "=SUM(B3:C3)"],
-    ["John Sieg", 12.51, "=B4*(1.22+1)", "=AVERAGE(B4:C4)", "=SUM(B4:C4)"],
-    ["Chris Aklips", 7.63, "=B5*1.1*SUM(10,20)+1", "=AVERAGE(B5:C5)", "=SUM(B5:C5)"],
-  ]
-);
+// call getCellValue to get the calculation results
+const mySum = hfInstance.getCellValue({ col: 2, row: 0, sheet: 0 });
 
-hfInstance.getCellValue({ sheet: hfInstance.getSheetId("Sheet1"), row: 0, col: 4 }); // SUM(B1:C1)
+// this outputs the result in the browser's console
+console.log(mySum);
 
 </script>
-</section>
-<section id="financiële-rekenkunde" class="level3">
-<h3 class="anchored" data-anchor-id="financiële-rekenkunde">Financiële rekenkunde</h3>
 
 
-</section>
 
 </main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuaW1wb3J0IHsgc3F1YXJlIH0gZnJvbSBcIi4vc3F1YXJlLmpzXCI7XG5cbnZpZXdvZiBpc2xhbmRzID0gSW5wdXRzLnJhZGlvKFxuICBbLi4uXCI1NjdcIl0sIFxuICB7IHZhbHVlOiBbNSwgNiwgN10sIFxuICAgIGxhYmVsOiBcIkdyb25kZ2V0YWw6XCJcbiAgfVxuKVxuXG5zcXVhcmUoaXNsYW5kcylcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldFF1aWV0Iiwic291cmNlIjoic2hpbnlJbnB1dCgnaXNsYW5kcycpIn1dfQ==
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../..";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
