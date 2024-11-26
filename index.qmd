@@ -1,33 +1,41 @@
 ---
 title: "basisboek"
-math:
-  engine: mathjax
-  options:
-    tex:
-      inlineMath: [["$", "$"], ["\\(", "\\)"]]
-      displayMath: [["$$", "$$"], ["\\[", "\\]"]]
 ---
 
-This is a Quarto website.
+<script src="https://cdn.jsdelivr.net/npm/chevrotain@6/lib/chevrotain.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/tiny-emitter@2/dist/tinyemitter.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hyperformula/dist/hyperformula.min.js"></script>
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
 
 ### Lineaire verbanden
 
-import sympy
-sympy.sqrt(3)
+<body>
+  <div class="example">
+  <table class="spreadsheet">
+    <colgroup>
+      <col style="width:30%"/>
+      <col style="width:30%"/>
+      <col style="width:30%"/>
+    </colgroup>
+    <thead></thead>
+    <tbody></tbody>
+  </table>
+  </div>
+</body>
 
+<script type="module" src="./src/table.js"></script>
 
-
-I wil incorporate html
-
-
-I will incorporate js
+### Non lineaire verbanden
 
 ```{ojs}
 //| echo: false
 
-import { square } from "./square.js"
+import { square } from "./src/square.js";
 
 viewof islands = Inputs.radio(
   [..."567"], 
@@ -38,29 +46,3 @@ viewof islands = Inputs.radio(
 
 square(islands)
 ```
-
-
-### Non lineare verbanden
-
-$$
-E = mc^2
-$$
-
-### Financiële rekenkunde
-
-\[
-E = mc^2
-\]
-
-
-### Rentabiliteitswaarde
-
-$e=mc^2$
-
-### Poging 4
-
-\begin
-
-2^0.5
-
-\end
