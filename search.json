@@ -5,5 +5,12 @@
     "title": "About",
     "section": "",
     "text": "Deze site bevat geselecteerde opgaven voor het vak Kwantitatieve Financiële Methoden. De opgave zijn overgenomen uit het onderstaande boek.\n\n\n\nCitationBibTeX citation:@book{van_as,_jaap_klouwen,\n  author = {van As, Jaap Klouwen, Donald},\n  title = {Basisboek Wiskunde En Financiële Rekenkunde},\n  url = {https://jan-ru.github.io/basisboek/about.html},\n  isbn = {978 90 469 0831 0},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAs, Jaap Klouwen, Donald van. n.d. Basisboek Wiskunde En Financiële\nRekenkunde. https://jan-ru.github.io/basisboek/about.html."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "basisboek",
+    "section": "",
+    "text": "Lineaire verbanden\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNon lineaire verbanden\n\nimport { square } from \"./src/square.js\";\n\nviewof islands = Inputs.radio(\n  [...\"567\"], \n  { value: [5, 6, 7], \n    label: \"Grondgetal:\"\n  }\n)\n\nsquare(islands)"
   }
 ]
